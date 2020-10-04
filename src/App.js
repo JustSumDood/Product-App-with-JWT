@@ -7,7 +7,6 @@ import Home from './components/Home'
 import Products from './components/Products'
 import Product from './components/Product'
 import Button from './components/Button'
-
 import {
   BrowserRouter as Router,
   Switch, Route, Link, Redirect
@@ -95,7 +94,6 @@ const App = () => {
             </Route>
         </Switch>
       </Router>
-
       <footer style={footerStyle}>
         <i> Product App, Department of Computing </i>
         <br/><i> {Date()}</i>
